@@ -14,10 +14,12 @@ int resultNumber(int M, int N)
     {
          sum=0;
     }
-    return sum;
+     return sum;
 }
 Console.Write("Введите натуральное число M: ");
 int M = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите натуральное число N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Сумма натуральных чисел равна: {resultNumber(M,N)}");
+
+
